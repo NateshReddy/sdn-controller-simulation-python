@@ -40,7 +40,7 @@ cd sdn-controller-simulation-python
 pip install matplotlib numpy
 
 ### Run the Simulation
-python sdn_simulation.py
+'python sdn_simulation.py'
 
 ## ✅ What This Project Does
 
