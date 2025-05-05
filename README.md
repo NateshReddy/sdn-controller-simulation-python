@@ -31,13 +31,14 @@ Developed as a final project for **CS 258 – Software Defined Networking**
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-
+```
 git clone https://github.com/your-username/sdn-controller-simulation-python.git
 cd sdn-controller-simulation-python
+```
 
 ### 2. Install Dependencies
 ##### This project uses matplotlib and numpy for visualization and simulation.
-pip install matplotlib numpy
+`pip install matplotlib numpy`
 
 ### Run the Simulation
 `python sdn_simulation.py`
