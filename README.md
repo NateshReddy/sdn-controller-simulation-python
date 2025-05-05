@@ -53,10 +53,32 @@ This simulation will:
   - Web-heavy
   - Mixed
   - Backup (large transfers)
-- ✅ Save visual outputs to:
-  - `sdn_benchmark_results.png`
-  - `sdn_performance_results.png`
 
+## 📊 Sample Output
+
+### ✅ SDN Benchmark (1000 Packets)
+
+| Controller | Hit Ratio | Avg Processing Time |
+|------------|-----------|----------------------|
+| OpenFlow   | 75.70%    | ~0.01 ms             |
+| P4         | 77.70%    | ~0.01 ms             |
+
+---
+
+### 🌐 Traffic Pattern Analysis
+
+| Traffic Pattern | Controller | Hit Ratio | Avg Processing Time |
+|------------------|------------|-----------|----------------------|
+| Web Heavy        | OpenFlow   | 70.30%    | 0.02 ms              |
+| Web Heavy        | P4         | 79.20%    | 0.03 ms              |
+| Mixed            | OpenFlow   | 45.50%    | 0.04 ms              |
+| Mixed            | P4         | 67.10%    | 0.04 ms              |
+| Backup           | OpenFlow   | 100.00%   | 0.00 ms              |
+| Backup           | P4         | 100.00%   | 0.00 ms              |
+
+> 📁 Output visualizations are saved as:
+> - `sdn_benchmark_results.png`
+> - `sdn_performance_results.png`
 ---
 
 ## 📚 References
